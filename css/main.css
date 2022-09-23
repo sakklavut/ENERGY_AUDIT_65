@@ -291,9 +291,11 @@ input[type="text"] {
 .count_user{
   text-align: center;
   padding: 10px;
+  
 }
 .copyright{
   text-align: center;
   padding: 10px;
 }
 }
+

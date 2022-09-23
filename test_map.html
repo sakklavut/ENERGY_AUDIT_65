@@ -1,37 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <script src="js/highmaps.js"></script>
-    <script src="js/exporting.js"></script>
+<script src="js/highmaps_test.js"></script>
+<script src="js/exporting_test.js"></script>
 
-</head>
-<body>
-  <style>
 
-#container {
-    height: 500px;
-    min-width: 310px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.loading {
-    margin-top: 10em;
-    text-align: center;
-    color: ;
-}
-
-  </style>
 
 <div id="container"></div>
 
-<div id="vmap" style="width: 100%; height: auto;"></div>
-<script type="text/javascript">
-(async () => {
+
+
+<script>
+     (async () => {
 
 const topology = await fetch(
-    'js/th-all.topo.json'
+    'js/th-all.topo_test.json'
 ).then(response => response.json());
 
 // Prepare demo data. The data is joined to map using value of 'hc-key'
@@ -67,11 +47,11 @@ Highcharts.mapChart('container', {
     },
 
     title: {
-        text: ''
+        text: 'Highcharts Maps basic demo'
     },
 
     subtitle: {
-        text: ''
+        text: 'Source map: <a href="js/th-all.topo_test.json">Thailand</a>'
     },
 
     mapNavigation: {
@@ -103,5 +83,3 @@ Highcharts.mapChart('container', {
 })();
 
 </script>
-</body>
-</html>

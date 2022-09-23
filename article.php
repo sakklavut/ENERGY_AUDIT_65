@@ -355,7 +355,7 @@
                               </div>
                               <div class="row">
                                    <div class="col-xl-12">
-                                    <?php include('map_thai.php'); ?>
+                                        <?php include('test_map_v2.php'); ?>
                                    </div>
                               </div>
                          </div>

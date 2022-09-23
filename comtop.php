@@ -23,7 +23,6 @@
      <link rel="stylesheet" href="Carousel/dist/assets/owl.carousel.min.css">
      <link rel="stylesheet" href="Carousel/dist/assets/owl.theme.default.min.css">
 
-
     <title>กระทรวงพลังงาน</title>
   </head>
   <body>
